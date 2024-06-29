@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "starknet": "^6.4.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "declare": "npx ts-node scripts/declareContract.ts",
+    "deploy": "npx ts-node scripts/deployContract.ts"
+  }
+}

@@ -1,0 +1,6 @@
+target
+.env
+node_modules
+.snfoundry_cache
+.snfoundry_cache/.prev_tests_failed
+snfoundry_cache

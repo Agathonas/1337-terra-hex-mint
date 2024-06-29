@@ -2,19 +2,25 @@
 version = 1
 
 [[package]]
+name = "alexandria_merkle_tree"
+version = "0.1.0"
+source = "git+https://github.com/keep-starknet-strange/alexandria.git#78b0d5114e7dbd71e79c4504e8ecb56d9b5c6995"
+
+[[package]]
 name = "openzeppelin"
-version = "0.9.0"
-source = "git+https://github.com/OpenZeppelin/cairo-contracts.git?tag=v0.9.0#364db5b1aecc1335d2e65db887291d19aa28937d"
+version = "0.11.0"
+source = "git+https://github.com/OpenZeppelin/cairo-contracts.git?tag=v0.11.0#a83f36b23f1af6e160288962be4a2701c3ecbcda"
 
 [[package]]
 name = "snforge_std"
-version = "0.19.0"
-source = "git+https://github.com/foundry-rs/starknet-foundry?tag=v0.19.0#a3391dce5bdda51c63237032e6cfc64fb7a346d4"
+version = "0.24.0"
+source = "git+https://github.com/foundry-rs/starknet-foundry?tag=v0.24.0#95e9fb09cb91b3c05295915179ee1b55bf923653"
 
 [[package]]
 name = "terracon_prestige_card"
 version = "0.1.0"
 dependencies = [
+ "alexandria_merkle_tree",
  "openzeppelin",
  "snforge_std",
 ]
